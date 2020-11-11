@@ -1,0 +1,19 @@
+
+command==>
+curl https://fcm.googleapis.com/fcm/send -H 'Content-Type:application/json' -X POST -d '{"notification": {"body": "this is a body", "title": "this is a title","click_action": "FLUTTER_NOTIFICATION_CLICK"}, "priority": "high", "data": {"id": "1", "status": "done"}, "to": "<token>"}' -H "Authorization: key=AAAAwYe1AQo:APA91bF3Jh3DbTk9MgLnxZq73KjuZjjikrmlp8AsoNwvUNZI5D1CDf4wBlrKVY56FZ-NRPwdLejdF44fVPpknBme_EIZelXoYqmUYkI-1yssS0GtgY8b-OU1Cf1UjyUATdtoyy4Ob18v"
+
+
+prettyprint==>
+{
+  "notification": {
+    "body": "this is a body",
+    "title": "this is a title",
+    "click_action": "FLUTTER_NOTIFICATION_CLICK"
+  },
+  "priority": "high",
+  "data": {
+    "id": "1",
+    "status": "done"
+  },
+  "to": "<token>"
+}
